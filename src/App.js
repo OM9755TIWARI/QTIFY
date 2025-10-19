@@ -32,7 +32,7 @@ const { topAlbum = [], newAlbum = [], genres = [], songs = [] } = data;
 
   useEffect(() => {
     generateData("topAlbum", fetchTopAlbum);
-    generateData("newAblum", fetchNewAlbum);
+    generateData("newAlbum", fetchNewAlbum);
     generateData("genres", fetchFilters);
     generateData("songs", fetchSongs);
   }, []);
