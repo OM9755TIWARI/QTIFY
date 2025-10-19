@@ -39,7 +39,7 @@ const { topAlbum = [], newAlbum = [], genres = [], songs = [] } = data;
 
   return (
     <>
-      <Navbar searchData = {[...topAlbum, newAlbum]}>
+      <Navbar searchData = {[...topAlbum, ...newAlbum]}>
         <Logo />
         <Search placeholder={"Search a album of your choice"} />
         <Button 
