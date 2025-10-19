@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.searchBtn {
+  /* position: absolute; */
+  height: 100%;
+  padding: 14px 20px;
+  width: 66px;
+  border-radius: 0px 8px 8px 0px;
+  border-color: var(--color-black);
+  border: 1px solid;
+  border-left: 0;
+  cursor: pointer;
+}
+
+.input {
+  height: 100%;
+  width: 502px;
+  padding: 14px 20px;
+  /* margin: 0; */
+  border-color: var(--color-black);
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid;
+}
